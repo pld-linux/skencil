@@ -46,7 +46,7 @@ Xwindow (podobnie jak XFig lub tgif). Jego g³ówne funkcje to:
  - przekszta³cenia - obrót, skalowanie, etc.
  - efekty specjalne takie jak ³±czenie w grupy, konwersja tekstu na
    krzywe Beziera, uk³adanie tekstu wed³ug zadanego kszta³tu, prostok±ty
-   oraz elipsy jako dodatkowe linie pomocniczne
+   oraz elipsy jako dodatkowe linie pomocnicze
  - zapis w innych formatach (EPS, Adobe Illustrator)
  - odczyt obcych formatów (XFig, Adobe Illustrator, WMF, CMX programu
    Corel Draw)
