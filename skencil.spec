@@ -1,4 +1,3 @@
-%include /usr/lib/rpm/macros.python
 Summary:	Advanced vector graphics program written in Python
 Summary(pl):	Zaawansowany program do rysowania grafiki wektorowej napisany w Pythonie
 Summary(pt_BR):	Programa para desenhos de gráficos vetoriais baseado em Python
