@@ -1,0 +1,11 @@
+--- setup.py~	2005-01-03 23:19:47.105883368 +0100
++++ setup.py	2005-01-03 23:41:44.532604064 +0100
+@@ -89,7 +89,7 @@
+                = run_config_script('pkg-config pygtk-2.0')
+ 
+ libart_incdirs, libart_defs, libart_libdirs, libart_libs \
+-                = run_config_script("libart-config")
++                = run_config_script("libart2-config")
+ 
+ # Include directories for the header files of the Python Imaging
+ # Library.
