@@ -9,6 +9,7 @@ Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
 # Source0-md5:	22db4f78151629df428c387e035fdad2
 Source1:	%{name}.desktop
+Patch0:		%{name}-python2.4.patch
 URL:		http://www.skencil.org/
 BuildRequires:	python-Imaging-devel >= 1.0
 BuildRequires:	python-devel >= 2.1
@@ -66,6 +67,7 @@ sed -i -e 's@/lib/python@/%{_lib}/python@' \
 	Filter/Makefile.pre.in \
 	Sketch/Modules/Makefile.pre.in
 sed -i -e "s@'lib'@'%{_lib}'@" setup.py
+%patch0 -p2
 
 %build
 %{__python} setup.py configure \
