@@ -4,7 +4,7 @@ Summary(pl):	Zaawansowany program do rysowania grafiki wektorowej napisany w Pyt
 Summary(pt_BR):	Programa para desenhos de gráficos vetoriais baseado em Python
 Name:		skencil
 Version:	0.6.16
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
