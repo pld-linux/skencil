@@ -19,6 +19,6 @@ Exec=skencil
 Terminal=false
 Type=Application
 Icon=skencil.png
-Categories=Game;Graphics;
+Categories=Graphics;VectorGraphics;
 Encoding=UTF-8
 # vi: encoding=utf-8
