@@ -24,14 +24,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Skencil is an interactive X11 drawing program (similar to XFig or
 tgif). It features:
- - drawing primitives like rectangles, ellipses, bezier curves,
-   external images, text
- - primitives properties
- - transformations: rotation, scaling, shearing, etc.
- - special effects like blend groups, converting text to bezier
-   objects, text along path and using bezier curves, rectangles and
-   ellipses as guides in addition to standard vertical and horizontal
-   guide lines
+- drawing primitives like rectangles, ellipses, bezier curves,
+  external images, text
+- primitives properties
+- transformations: rotation, scaling, shearing, etc.
+- special effects like blend groups, converting text to bezier
+  objects, text along path and using bezier curves, rectangles and
+  ellipses as guides in addition to standard vertical and horizontal
+  guide lines
 - export file formats (EPS, Adobe Illustrator)
 - import file formats (XFig, Adobe Illustrator, WMF, Corels CMX)
 - unlimited undo history
@@ -40,18 +40,18 @@ tgif). It features:
 %description -l pl
 Skencil to interaktywny program do rysunku wektorowego dla systemu
 Xwindow (podobnie jak XFig lub tgif). Jego g³ówne funkcje to:
- - podstawowe kszta³ty rysunkowe takie jak prostok±ty, elipsy, krzywe
-   Beziera, zewnêtrzne pliki z obrazami, tekst
- - w³a¶ciwo¶ci kszta³tów
- - przekszta³cenia - obrót, skalowanie, etc.
- - efekty specjalne takie jak ³±czenie w grupy, konwersja tekstu na
-   krzywe Beziera, uk³adanie tekstu wed³ug zadanego kszta³tu, prostok±ty
-   oraz elipsy jako dodatkowe linie pomocnicze
- - zapis w innych formatach (EPS, Adobe Illustrator)
- - odczyt obcych formatów (XFig, Adobe Illustrator, WMF, CMX programu
-   Corel Draw)
- - nieskoñczona historia zmian pozwalaj±ca na ich cofniêcie
- - skrypty u¿ytkownika
+- podstawowe kszta³ty rysunkowe takie jak prostok±ty, elipsy, krzywe
+  Beziera, zewnêtrzne pliki z obrazami, tekst
+- w³a¶ciwo¶ci kszta³tów
+- przekszta³cenia - obrót, skalowanie, etc.
+- efekty specjalne takie jak ³±czenie w grupy, konwersja tekstu na
+  krzywe Beziera, uk³adanie tekstu wed³ug zadanego kszta³tu, prostok±ty
+  oraz elipsy jako dodatkowe linie pomocnicze
+- zapis w innych formatach (EPS, Adobe Illustrator)
+- odczyt obcych formatów (XFig, Adobe Illustrator, WMF, CMX programu
+  Corel Draw)
+- nieskoñczona historia zmian pozwalaj±ca na ich cofniêcie
+- skrypty u¿ytkownika
 
 %description -l pt_BR
 Skencil é um programa para desenhos de gráficos vetoriais que roda
