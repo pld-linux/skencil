@@ -4,7 +4,7 @@ Summary(pl):	Zaawansowany program do rysowania grafiki wektorowej napisany w Pyt
 Summary(pt_BR):	Programa para desenhos de gráficos vetoriais baseado em Python
 Name:		skencil
 Version:	0.6.16
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
@@ -14,6 +14,7 @@ URL:		http://sketch.sourceforge.net/
 BuildRequires:	python-Imaging-devel >= 1.0
 BuildRequires:	python-devel >= 2.1
 BuildRequires:	rpm-pythonprov
+BuildRequires:	sed >= 4.0
 BuildRequires:	tk-devel
 %pyrequires_eq	python
 Requires:	python-Imaging
@@ -61,9 +62,17 @@ programação orientada a objeto interpretada.
 %prep
 %setup -q
 
+sed -i -e 's@/lib/python@/%{_lib}/python@' \
+	Pax/Makefile.pre.in \
+	Filter/Makefile.pre.in \
+	Sketch/Modules/Makefile.pre.in
+sed -i -e "s@'lib'@'%{_lib}'@" setup.py
+
 %build
 %{__python} setup.py configure \
 	--imaging-include=%{py_incdir} \
+	--python-setup=%{py_libdir}/config/Setup \
+	--tk-flags='-ltk -ltcl -L/usr/X11R6/%{_lib} -lX11' \
 	--with-nls
 %{__python} setup.py build
 
