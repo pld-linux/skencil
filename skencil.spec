@@ -9,7 +9,7 @@ Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
 # Source0-md5:	22db4f78151629df428c387e035fdad2
 Source1:	%{name}.desktop
-URL:		http://sketch.sourceforge.net/
+URL:		http://www.skencil.org
 BuildRequires:	python-Imaging-devel >= 1.0
 BuildRequires:	python-devel >= 2.1
 BuildRequires:	rpm-pythonprov
