@@ -1,0 +1,36 @@
+*** ../skencil-0.6.16/Pax/paxtkinter.c	Sat May  3 20:55:36 2003
+--- Pax/paxtkinter.c	Sat Aug  7 21:52:22 2004
+***************
+*** 1866,1871 ****
+--- 1866,1874 ----
+  	char *className = NULL;
+  	int interactive = 0;
+  
++ 	int ignored_int = 0;
++ 	char *ignored_charp = NULL;
++ 
+  	baseName = strrchr(Py_GetProgramName(), '/');
+  	if (baseName != NULL)
+  		baseName++;
+***************
+*** 1873,1881 ****
+  		baseName = Py_GetProgramName();
+  	className = "Tk";
+    
+! 	if (!PyArg_ParseTuple(args, "|zssi",
+  			      &screenName, &baseName, &className,
+! 			      &interactive))
+  		return NULL;
+  
+  	return (PyObject *) Tkapp_New(screenName, baseName, className, 
+--- 1876,1885 ----
+  		baseName = Py_GetProgramName();
+  	className = "Tk";
+    
+! 	if (!PyArg_ParseTuple(args, "|zssiiiiz:create",
+  			      &screenName, &baseName, &className,
+! 			      &interactive, &ignored_int, &ignored_int,
+! 			      &ignored_int, &ignored_charp))
+  		return NULL;
+  
+  	return (PyObject *) Tkapp_New(screenName, baseName, className, 
