@@ -13,7 +13,6 @@ Patch0:		%{name}-python2.4.patch
 URL:		http://www.skencil.org/
 BuildRequires:	python-Imaging-devel >= 1.0
 BuildRequires:	python-devel >= 2.1
-BuildRequires:	rpm-pythonprov
 BuildRequires:	sed >= 4.0
 BuildRequires:	tk-devel
 %pyrequires_eq	python
