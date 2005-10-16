@@ -2,12 +2,12 @@ Summary:	Advanced vector graphics program written in Python
 Summary(pl):	Zaawansowany program do rysowania grafiki wektorowej napisany w Pythonie
 Summary(pt_BR):	Programa para desenhos de gráficos vetoriais baseado em Python
 Name:		skencil
-Version:	0.6.16
-Release:	4
+Version:	0.6.17
+Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
-# Source0-md5:	22db4f78151629df428c387e035fdad2
+# Source0-md5:	03f0a57cf623bcd657a4b8887d3ebe0b
 Source1:	%{name}.desktop
 Patch0:		%{name}-python2.4.patch
 URL:		http://www.skencil.org/
@@ -66,7 +66,6 @@ sed -i -e 's@/lib/python@/%{_lib}/python@' \
 	Filter/Makefile.pre.in \
 	Sketch/Modules/Makefile.pre.in
 sed -i -e "s@'lib'@'%{_lib}'@" setup.py
-%patch0 -p2
 
 %build
 %{__python} setup.py configure \
