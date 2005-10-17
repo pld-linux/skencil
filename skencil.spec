@@ -9,7 +9,6 @@ Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
 # Source0-md5:	03f0a57cf623bcd657a4b8887d3ebe0b
 Source1:	%{name}.desktop
-Patch0:		%{name}-python2.4.patch
 URL:		http://www.skencil.org/
 BuildRequires:	python-Imaging-devel >= 1.0
 BuildRequires:	python-devel >= 2.1
