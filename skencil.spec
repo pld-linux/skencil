@@ -10,12 +10,12 @@ Source0:	http://dl.sourceforge.net/sketch/%{name}-%{version}.tar.gz
 # Source0-md5:	03f0a57cf623bcd657a4b8887d3ebe0b
 Source1:	%{name}.desktop
 URL:		http://www.skencil.org/
-BuildRequires:	python-Imaging-devel >= 1.0
+BuildRequires:	python-PIL-devel
 BuildRequires:	python-devel >= 2.1
 BuildRequires:	sed >= 4.0
 BuildRequires:	tk-devel
 %pyrequires_eq	python
-Requires:	python-Imaging
+Requires:	python-PIL
 Requires:	python-tkinter >= 2.1
 Obsoletes:	sketch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
