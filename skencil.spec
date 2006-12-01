@@ -12,6 +12,7 @@ Source1:	%{name}.desktop
 URL:		http://www.skencil.org/
 BuildRequires:	python-PIL-devel
 BuildRequires:	python-devel >= 2.1
+BuildRequires:	rpm-pythonprov
 BuildRequires:	sed >= 4.0
 BuildRequires:	tk-devel
 %pyrequires_eq	python
