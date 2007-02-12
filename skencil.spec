@@ -1,6 +1,6 @@
 Summary:	Advanced vector graphics program written in Python
-Summary(pl.UTF-8):   Zaawansowany program do rysowania grafiki wektorowej napisany w Pythonie
-Summary(pt_BR.UTF-8):   Programa para desenhos de gráficos vetoriais baseado em Python
+Summary(pl.UTF-8):	Zaawansowany program do rysowania grafiki wektorowej napisany w Pythonie
+Summary(pt_BR.UTF-8):	Programa para desenhos de gráficos vetoriais baseado em Python
 Name:		skencil
 Version:	0.6.17
 Release:	1
