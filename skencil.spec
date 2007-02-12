@@ -1,6 +1,6 @@
 Summary:	Advanced vector graphics program written in Python
-Summary(pl):	Zaawansowany program do rysowania grafiki wektorowej napisany w Pythonie
-Summary(pt_BR):	Programa para desenhos de gr·ficos vetoriais baseado em Python
+Summary(pl.UTF-8):   Zaawansowany program do rysowania grafiki wektorowej napisany w Pythonie
+Summary(pt_BR.UTF-8):   Programa para desenhos de gr√°ficos vetoriais baseado em Python
 Name:		skencil
 Version:	0.6.17
 Release:	1
@@ -36,26 +36,26 @@ tgif). It features:
 - unlimited undo history
 - user scripts
 
-%description -l pl
+%description -l pl.UTF-8
 Skencil to interaktywny program do rysunku wektorowego dla systemu
-Xwindow (podobnie jak XFig lub tgif). Jego g≥Ûwne funkcje to:
-- podstawowe kszta≥ty rysunkowe takie jak prostok±ty, elipsy, krzywe
-  Beziera, zewnÍtrzne pliki z obrazami, tekst
-- w≥a∂ciwo∂ci kszta≥tÛw
-- przekszta≥cenia - obrÛt, skalowanie, etc.
-- efekty specjalne takie jak ≥±czenie w grupy, konwersja tekstu na
-  krzywe Beziera, uk≥adanie tekstu wed≥ug zadanego kszta≥tu, prostok±ty
+Xwindow (podobnie jak XFig lub tgif). Jego g≈Ç√≥wne funkcje to:
+- podstawowe kszta≈Çty rysunkowe takie jak prostokƒÖty, elipsy, krzywe
+  Beziera, zewnƒôtrzne pliki z obrazami, tekst
+- w≈Ça≈õciwo≈õci kszta≈Çt√≥w
+- przekszta≈Çcenia - obr√≥t, skalowanie, etc.
+- efekty specjalne takie jak ≈ÇƒÖczenie w grupy, konwersja tekstu na
+  krzywe Beziera, uk≈Çadanie tekstu wed≈Çug zadanego kszta≈Çtu, prostokƒÖty
   oraz elipsy jako dodatkowe linie pomocnicze
 - zapis w innych formatach (EPS, Adobe Illustrator)
-- odczyt obcych formatÛw (XFig, Adobe Illustrator, WMF, CMX programu
+- odczyt obcych format√≥w (XFig, Adobe Illustrator, WMF, CMX programu
   Corel Draw)
-- nieskoÒczona historia zmian pozwalaj±ca na ich cofniÍcie
-- skrypty uøytkownika
+- niesko≈Ñczona historia zmian pozwalajƒÖca na ich cofniƒôcie
+- skrypty u≈ºytkownika
 
-%description -l pt_BR
-Skencil È um programa para desenhos de gr·ficos vetoriais que roda
-sobre o X. Ele È escrito em inteiramente em Python, uma linguagem de
-programaÁ„o orientada a objeto interpretada.
+%description -l pt_BR.UTF-8
+Skencil √© um programa para desenhos de gr√°ficos vetoriais que roda
+sobre o X. Ele √© escrito em inteiramente em Python, uma linguagem de
+programa√ß√£o orientada a objeto interpretada.
 
 %prep
 %setup -q
